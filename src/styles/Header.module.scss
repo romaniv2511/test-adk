@@ -1,0 +1,19 @@
+@import "vars";
+
+.header {
+  padding: 44px 0 ;
+  background-color: $secondary-bg-color;
+}
+.list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 72px;
+}
+.link {
+  color: $text-color;
+  cursor: pointer;
+  .active, &:hover, &:focus {
+    color: $accent-color;
+  }
+}

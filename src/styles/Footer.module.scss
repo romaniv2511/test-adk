@@ -1,0 +1,19 @@
+@import "vars";
+
+.footer {
+  background-color: $secondary-bg-color;
+}
+.list {
+  margin: 0 auto;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  max-width: 1000px;
+}
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: $card-bg-color;
+}
