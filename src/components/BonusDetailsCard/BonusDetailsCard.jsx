@@ -1,8 +1,8 @@
 "use client"
 import Image from "next/image";
 import {useState} from "react";
-import style from "../styles/BonusDetailCard.module.scss"
-import Button from "@/components/Button"
+import style from "./BonusDetailCard.module.scss"
+import Button from "@/components/Button/Button"
 
 export default function BonusDetailsCard({data}) {
     const [isDetailShow, setIsDetailShow] = useState(false)
@@ -11,6 +11,7 @@ export default function BonusDetailsCard({data}) {
 
     return (
         <>
+            <div className={style.mainBox}>
             <Image src={logoURL} alt="" width={94} height={52}/>
             <span>{bonuses}</span>
             <span>{rate}%</span>
@@ -19,7 +20,7 @@ export default function BonusDetailsCard({data}) {
                 <Image src="/images/info.svg" alt='info' width={24} height={24}/>
             </button>
             <Button size="small">Get the bonus</Button>
-
+            </div>
             {!!isDetailShow ?
                 (<div className={style.detailsBox}>
                     <p>
@@ -29,7 +30,7 @@ export default function BonusDetailsCard({data}) {
                     <p>
                         <span>Wagering condition:</span>
                         <span>{condition.map(i => {
-                            return (<>{i} <br/></>)
+                            return (<>{i} <br/><br/></>)
                         })}
                         </span>
                     </p>

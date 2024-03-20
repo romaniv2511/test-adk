@@ -1,12 +1,9 @@
-import style from "../styles/BonusDetails.module.scss";
-import bonusDetails from "/public/bonus-details.json";
-import BonusDetailsCard from "@/components/BonusDetailsCard.jsx"
-
-
-
+import style from "./BonusDetails.module.scss";
+import casinoList from "/public/bonus-details.json";
+import BonusDetailsCard from "@/components/BonusDetailsCard/BonusDetailsCard.jsx"
 
 export default function BonusDetails() {
-    const casinoList = [...bonusDetails];
+
     return (
         <section className={style.section}>
         <div className="container">

@@ -1,8 +1,6 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-import Hero from "@/components/Hero";
-import TopCasino from "@/components/TopCasino";
-import BonusDetails from "@/components/BonusDetails";
+import Hero from "@/components/Hero/Hero";
+import TopCasino from "@/components/TopCasino/TopCasino";
+import BonusDetails from "@/components/BonusDetails/BonusDetails";
 
 
 export default function Home() {

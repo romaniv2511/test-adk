@@ -1,5 +1,5 @@
-import style from "../styles/Hero.module.scss"
-import Button from "./Button.jsx"
+import style from "./Hero.module.scss"
+import Button from "../Button/Button.jsx"
 export default function Hero () {
     return (
         <section className={style.section}>

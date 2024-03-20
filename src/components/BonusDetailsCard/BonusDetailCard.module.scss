@@ -1,0 +1,39 @@
+@import "../../styles/vars";
+
+.mainBox {
+  padding: 16px;
+  display: grid;
+  column-gap: 12px;
+  align-items: center;
+  grid-template-columns: 180px 1fr 130px 130px 130px 230px;
+  grid-template-rows: auto auto;
+  background-color: $card-bg-color;
+}
+.detailsBox {
+  margin-top: 10px;
+  grid-column: 1 / -1;
+  grid-row: 2;
+  display: grid;
+  & p {
+    padding: 10px 16px 12px;
+    border-bottom: 1px solid $card-bg-color;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    text-align: left;
+    & span:nth-child(2n) {
+      font-size: 17px;
+    }
+  }
+}
+.infoBtn {
+  margin: auto;
+  width: 48px;
+  border: 0;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  & img {
+    margin: auto;
+
+  }
+}

@@ -1,9 +1,9 @@
-@import "vars";
+@import "../../styles/vars";
 
 .section {
   position: relative;
   padding: 150px 0 176px;
-  background: url('/hero.webp');
+  background: url('/images/hero.webp');
   background-size: auto 1215px;
   background-position: center right;
   background-repeat: no-repeat;

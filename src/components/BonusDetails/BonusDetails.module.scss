@@ -1,4 +1,4 @@
-@import "vars";
+@import "../../styles/vars";
 
 .section {
   padding: 0 0 200px;
@@ -13,7 +13,6 @@
   gap: 20px;
   font-size: 19px;
   & li{
-    padding: 16px;
     display: grid;
     column-gap: 12px;
     align-items: center;
@@ -23,13 +22,12 @@
     text-align: left;
   }
   & .headerRow {
+    padding: 0 16px;
+    display: grid;
+    column-gap: 12px;
+    align-items: center;
     grid-template-columns: 180px 1fr 130px 130px 130px 230px;
 
     text-align: center;
-  }
-  & .bodyRow {
-    grid-template-columns: 180px 1fr 130px 130px 130px 230px;
-    grid-template-rows: auto auto;
-    background-color: $card-bg-color;
   }
 }

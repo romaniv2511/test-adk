@@ -1,5 +1,5 @@
-import Button from './Button'
-import style from '../styles/TopCasinoCard.module.scss'
+import Button from '../Button/Button'
+import style from './TopCasinoCard.module.scss'
 export default function TopCasinoCard ({data}) {
     const {logo, name,bonus, details} = data;
     const logoLink = `/images/${logo}`;
