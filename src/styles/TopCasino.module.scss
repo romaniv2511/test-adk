@@ -1,0 +1,15 @@
+
+.section {
+  padding: 152px 0;
+}
+.title {
+  margin-bottom: 40px;
+  font-size: 60px;
+  font-weight: bold;
+}
+.list {
+  margin-bottom: 68px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(264px, 1fr)); // creates a responsive grid
+  gap: 30px;
+}

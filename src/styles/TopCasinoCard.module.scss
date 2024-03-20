@@ -1,0 +1,15 @@
+@import "vars";
+
+.card {
+  padding: 28px 16px 44px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  background-color: $card-bg-color;
+  font-size: 20px;
+  text-align: center;
+  & img {
+
+  }
+}

@@ -5,25 +5,25 @@ export default function Footer() {
             <div className="container">
                 <ul className={style.list}>
                     <li>
-                        <img src="/pay-1.svg" alt='paymant-logo' loading="lazy" />
+                        <img src="/images/pay-1.svg" alt='paymant-logo' loading="lazy" />
                     </li>
                     <li>
-                        <img src="/pay-2.svg" alt='paymant-logo' loading="lazy" />
+                        <img src="/images/pay-2.svg" alt='paymant-logo' loading="lazy" />
                     </li>
                     <li>
-                        <img src="/pay-3.svg" alt='paymant-logo' loading="lazy" />
+                        <img src="/images/pay-3.svg" alt='paymant-logo' loading="lazy" />
                     </li>
                     <li>
-                        <img src="/pay-4.svg" alt='paymant-logo'  loading="lazy" />
+                        <img src="/images/pay-4.svg" alt='paymant-logo' loading="lazy" />
                     </li>
                     <li>
-                        <img src="/pay-5.svg" alt='paymant-logo' loading="lazy" />
+                        <img src="/images/pay-5.svg" alt='paymant-logo' loading="lazy" />
                     </li>
                     <li>
-                        <img src="/pay-6.svg" alt='paymant-logo' loading="lazy" />
+                        <img src="/images/pay-6.svg" alt='paymant-logo' loading="lazy" />
                     </li>
                     <li>
-                        <img src="/pay-7.svg" alt='paymant-logo' loading="lazy" />
+                        <img src="/images/pay-7.svg" alt='paymant-logo' loading="lazy" />
                     </li>
                 </ul>
             </div>
@@ -31,28 +31,28 @@ export default function Footer() {
             <div className="container">
                 <ul className={style.list}>
                     <li>
-                        <img src="/sponsor-1.webp" alt='sponsor-logo' loading="lazy" />
+                        <img src="/images/sponsor-1.webp" alt='sponsor-logo' loading="lazy" />
                     </li>
                     <li>
-                        <img src="/sponsor-2.webp" alt='sponsor-logo' loading="lazy" />
+                        <img src="/images/sponsor-2.webp" alt='sponsor-logo' loading="lazy" />
                     </li>
                     <li>
-                        <img src="/sponsor-3.webp" alt='sponsor-logo' loading="lazy" />
+                        <img src="/images/sponsor-3.webp" alt='sponsor-logo' loading="lazy" />
                     </li>
                     <li>
-                        <img src="/sponsor-4.webp" alt='sponsor-logo' loading="lazy" />
+                        <img src="/images/sponsor-4.webp" alt='sponsor-logo' loading="lazy" />
                     </li>
                     <li>
-                        <img src="/sponsor-5.webp" alt='sponsor-logo' loading="lazy" />
+                        <img src="/images/sponsor-5.webp" alt='sponsor-logo' loading="lazy" />
                     </li>
                     <li>
-                        <img src="/sponsor-6.webp" alt='sponsor-logo' loading="lazy" />
+                        <img src="/images/sponsor-6.webp" alt='sponsor-logo' loading="lazy" />
                     </li>
                     <li>
-                        <img src="/sponsor-7.webp" alt='sponsor-logo' loading="lazy" />
+                        <img src="/images/sponsor-7.webp" alt='sponsor-logo' loading="lazy" />
                     </li>
                     <li>
-                        <img src="/sponsor-8.webp" alt='sponsor-logo' loading="lazy" />
+                        <img src="/images/sponsor-8.webp" alt='sponsor-logo' loading="lazy" />
                     </li>
                 </ul>
             </div>
