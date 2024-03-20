@@ -1,6 +1,8 @@
 @import "../../styles/vars";
 
 .mainBox {
+  position: relative;
+  z-index: 100;
   padding: 16px;
   display: grid;
   column-gap: 12px;
@@ -14,6 +16,13 @@
   grid-column: 1 / -1;
   grid-row: 2;
   display: grid;
+  max-height: 0;
+  transition: max-height 0.3s ease-in-out;
+  overflow: hidden;
+
+  &.isOpen{
+    max-height: 700px;
+  }
   & p {
     padding: 10px 16px 12px;
     border-bottom: 1px solid $card-bg-color;

@@ -21,8 +21,8 @@ export default function BonusDetailsCard({data}) {
             </button>
             <Button size="small" href="/bonus">Get the bonus</Button>
             </div>
-            {!!isDetailShow ?
-                (<div className={style.detailsBox}>
+            {/*<div className={style.detailsWrapper}>*/}
+                <div className={`${style.detailsBox} ${!!isDetailShow ? style.isOpen : ''}`}>
                     <p>
                         <span>Bonus valid for:</span>
                         <span>{valid}</span>
@@ -42,8 +42,8 @@ export default function BonusDetailsCard({data}) {
                         <span>Cashable Bonus:</span>
                         <span>{cashableBonus}</span>
                     </p>
-                </div>) : ''
-            }
+                </div>
+            {/*</div>*/}
         </>
     )
 }
