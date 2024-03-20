@@ -19,7 +19,7 @@ export default function BonusDetailsCard({data}) {
             <button className={style.infoBtn} onClick={() => setIsDetailShow(!isDetailShow)}>
                 <Image src="/images/info.svg" alt='info' width={24} height={24}/>
             </button>
-            <Button size="small">Get the bonus</Button>
+            <Button size="small" href="/bonus">Get the bonus</Button>
             </div>
             {!!isDetailShow ?
                 (<div className={style.detailsBox}>

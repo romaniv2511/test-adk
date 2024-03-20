@@ -9,7 +9,7 @@ export default function TopCasinoCard ({data}) {
             <h3>{name}</h3>
             <p>{bonus}</p>
             <p>{details}</p>
-            <Button size='small'>Clame Bonus</Button>
+            <Button size='small' href="/bonus">Clame Bonus</Button>
         </div>
     )
 }

@@ -15,7 +15,7 @@ export default function TopCasino () {
                         return <li key={i.id}><TopCasinoCard  data={i}/></li>
                     })}
                 </ul>
-                <Button size='big'>All Casino</Button>
+                <Button size='big' href="/">All Casino</Button>
             </div>
         </section>
     )
