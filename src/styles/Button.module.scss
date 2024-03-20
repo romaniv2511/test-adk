@@ -1,0 +1,22 @@
+@import "vars";
+
+.btn {
+  color: $text-color;
+  background-color: $accent-color;
+  border-radius: 8px;
+  border: 0;
+  outline: none;
+  font-weight: bold;
+  cursor: pointer;
+  &:hover, &:focus {
+    background-color: #556FF880;
+  }
+  &.small {
+    padding: 16px 32px;
+    font-size: 20px;
+  }
+  &.big {
+    padding: 20px 40px;
+    font-size: 33px;
+  }
+}

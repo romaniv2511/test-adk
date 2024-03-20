@@ -3,9 +3,11 @@
 import Link from 'next/link'
 import {usePathname} from "next/navigation";
 import style from  '../styles/Header.module.scss'
+import {useEffect} from "react";
 
 export default function Header() {
     const pathname = usePathname();
+   
     return (<header className={style.header}>
             <div className="container">
                 <nav>

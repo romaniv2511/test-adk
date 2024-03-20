@@ -1,0 +1,37 @@
+@import "vars";
+
+.section {
+  position: relative;
+  padding: 150px 0 176px;
+  background: url('/hero.webp');
+  background-size: auto 1215px;
+  background-position: center right;
+  background-repeat: no-repeat;
+
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 200px;
+    background: linear-gradient(to top,$bg-color 0%, $bg-color 20%,  #101010 50%,  #10101000 100%);
+    z-index: 1;
+  }
+}
+.wrapper {
+  position: relative;
+  z-index: 2;
+}
+.title {
+  margin-bottom: 26px;
+  font-size: 146px;
+  line-height: 1.16;
+  font-weight: bold;
+}
+.text {
+  margin-bottom: 45px;
+  font-size: 30px;
+  line-height: 1.16;
+  text-transform: capitalize;
+}
